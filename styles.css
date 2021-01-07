@@ -2,7 +2,7 @@
 body{
     background-color: #e8f1f5;
 }
-h1{
+#title{
     font-size: 9vh;
     margin: 1vh auto 1vh auto;
     color: #004a7c;
@@ -22,7 +22,13 @@ div.editor-toolbar{
     overflow: hidden;
 }
 
+.theme-name{
+  display: inline-block;
+}
 
+label{
+  margin: auto 5px auto 5px;
+}
 /* -------------- TOGGLE SWITCH ----------------- */
 .switch {
     position: relative;
@@ -85,5 +91,56 @@ div.editor-toolbar{
   }
   
   .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* // ------ AUDIO SLIDER --------- // */
+  .slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider2:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider2 {
+    background-color: rgb(74, 201, 74);
+  }
+
+  .slider2.round:checked{
+      background-color: white;
+  }
+  
+  input:focus + .slider2 {
+    box-shadow: 0 0 1px #005691;
+  }
+  
+  input:checked + .slider2:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider2.round {
+    border-radius: 34px;
+  }
+  
+  .slider2.round:before {
     border-radius: 50%;
   }
