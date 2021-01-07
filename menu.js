@@ -21,12 +21,12 @@ const template = [
         ]
     }, 
     {
-        label: 'Fuck-Off',
+        label: 'Code',
         submenu: [
             {
-                label: 'Fuck-You',
+                label: 'Code',
                 click(){
-                    shell.openExternal('https://www.google.com/search?source=hp&ei=5l_rX7T1EdKr0PEPlcWgoAE&iflsig=AINFCbYAAAAAX-tt9vN5PLMwhz1fQQUsq3XozgzHN0s7&q=fuckyou&oq=fuckyou&gs_lcp=CgZwc3ktYWIQAzoICAAQsQMQgwE6CAguEMcBEKMCOgIIADoOCC4QsQMQgwEQxwEQowI6BQguELEDOgUIABCxAzoICC4QsQMQkwJQnQ1Y2BRgkhdoAHAAeACAAfkCiAH7CZIBBzIuMy4xLjGYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi0gL_A1PPtAhXSFTQIHZUiCBQQ4dUDCAo&uact=5');
+                    shell.openExternal('https://github.com/MichaelEclavea/markdown-editor');
                 }
             }
         ]

@@ -21,8 +21,6 @@ function changeThemeName(){
            
     })
 }
-// .editor-preview-side {background-color: rgb(58, 58, 58); color: white;}
-
 
 
 // --------- FUNCTION CALLS --------- //

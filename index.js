@@ -8,6 +8,7 @@ app.on('ready', () =>{
     window = new BrowserWindow({
         width: 800,
         height: 600,
+        icon:'path/to/icon.png',
         webPreferences: {
             nodeIntegration: true
         }
