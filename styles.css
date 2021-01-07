@@ -1,0 +1,44 @@
+*{
+    caret-color: lightgreen;
+}
+body{
+    background-image: url('./theme1.jpg');
+    caret-color: white;
+}
+h1{
+    font-size: 9vh;
+    margin: 1vh auto 1vh auto;
+}
+
+header{
+    text-align: center;
+}
+
+div.editor-toolbar{
+    opacity: none;
+    background-color: white;
+    caret-color: white;
+}
+
+/* #textarea{
+    background-color: black;
+} */
+
+/* div.codeMirror {
+    background-color: black;
+} */
+
+.CodeMirror{
+    background-color: #263031;
+    color: lightgreen;
+    caret-color: white;
+    height: 75vh;
+    overflow: hidden;
+}
+.CodeMirror-line{
+    caret-color: white;
+}
+
+.CodeMirror-code{
+    caret-color: white;
+}

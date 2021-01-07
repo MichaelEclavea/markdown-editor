@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/simplemde/dist/simplemde.min.css"> 
+    <script src="./node_modules/simplemde/dist/simplemde.min.js"></script> 
+    <link rel="stylesheet" href="./styles.css">
+    <title>markdown-editor</title>
+</head>
+<body>
+   <header>
+      
+       <h1>Markdown Editor</h1>
+   </header>
+   <div id="textarea">
+        <textarea id="editor"></textarea>
+        <script>
+            let editor = new SimpleMDE({
+                element: document.getElementById('editor')
+            });
+        </script>
+        </div>
+  <script>
+      document.addEventListener('keydown', () =>{
+          console.log('keydown');
+      })
+
+title.innerHTML=os.userInfo;
+  </script>
+    <style>
+        html, body {
+            height: 100%;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+        }
+        .CodeMirror {
+            flex: 1;
+        }
+    </style>
+</body>
+</html>
