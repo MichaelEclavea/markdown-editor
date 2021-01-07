@@ -2,12 +2,12 @@
     caret-color: lightgreen;
 }
 body{
-    background-image: url('./theme1.jpg');
-    caret-color: white;
+    background-color: #e8f1f5;
 }
 h1{
     font-size: 9vh;
     margin: 1vh auto 1vh auto;
+    color: #004a7c;
 }
 
 header{
@@ -16,7 +16,7 @@ header{
 
 div.editor-toolbar{
     opacity: none;
-    background-color: white;
+    background-color: #fafafa;
     caret-color: white;
 }
 
@@ -29,7 +29,7 @@ div.editor-toolbar{
 } */
 
 .CodeMirror{
-    background-color: #263031;
+    background-color: #fafafa;
     color: lightgreen;
     caret-color: white;
     height: 75vh;
