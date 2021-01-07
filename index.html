@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/simplemde/dist/simplemde.min.css"> 
     <script src="./node_modules/simplemde/dist/simplemde.min.js"></script> 
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
     <link rel="stylesheet" href="./styles.css">
     <title>markdown-editor<span id='os'></span></title>
 </head>
 <body>
    <header>
-       <h1>Markdown Editor</h1>
-       <span><p id="theme-name">LightTheme</p>
+       <h1 id="title">Markdown Editor</h1>
+       <p class="theme-name" id="theme-name">LightTheme</p>
         <label class="switch">
             <input id="slider" type="checkbox"/>
             <span class="slider round"></span>
           </label>
-    </span>
+          <p class="theme-name" id="audio-name">Play Audio</p>
+          <label class="switch">
+              <input id="audio-slider" type="checkbox"/>
+              <span class="slider2 round"></span>
+            </label>
+
    </header>
    <div id="textarea">
         <textarea id="editor"></textarea>
@@ -31,6 +41,11 @@
   </script>
     <style id='theme'>
     </style>
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+      ></script>
     <script src="app.js"></script>
 </body>
 </html>
