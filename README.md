@@ -10,5 +10,5 @@ This is a simple application that allows the user to create markdown files with 
 **To Build application locally and create the actual app for PC & Mac**
 4. In terminal enter: npm run dist
 
-#### **More information about simplemde can be found here: **
+#### **More information about simplemde can be found here:**
 [Simplemde](https://www.npmjs.com/package/simplemde)
